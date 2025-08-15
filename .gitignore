@@ -12,9 +12,9 @@ Media/
 Packages/
 UserSettings/
 Assets/*
+!Assets/UserScripts/
+!Assets/UserScripts/**
 
-# Track only your scripts and the specific OVRSkeleton.cs
-!Assets/UserScripts/*
 
 # === Visual Studio ===
 .vscode/
