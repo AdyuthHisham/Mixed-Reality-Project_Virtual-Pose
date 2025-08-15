@@ -2,7 +2,8 @@
 Module for estimating the pose of an artificial limb and visualizing the limb in the Meta Quest 
 
 ## Status: Work In Progress ⚒️
-- Implemented class ```CustomSkeletonModifier``` in ```OVRSkeleton.cs``` to read user provided data and inject it to 
+- Implemented class ```CustomSkeletonModifier``` in ```OVRSkeleton.cs``` to read user provided data and manipuate Hand pose.
+- Set up a module for communication between BioArmband and Meta Quest.
 
 ## Overview
 **Goal:** Estimate the pose of a virtual limb using a third party sensor and perform custom pose estimation of virtual limbs in Meta Quest. 
