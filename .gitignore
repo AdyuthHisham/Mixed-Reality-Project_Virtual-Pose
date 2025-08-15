@@ -1,0 +1,57 @@
+# === Unity specific ===
+[Ll]ibrary/*
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+MemoryCaptures/
+Logs/
+.vs/
+.utmp/
+Media/
+Packages/
+UserSettings/
+Assets/*
+
+# Track only your scripts and the specific OVRSkeleton.cs
+!Assets/UserScripts/*
+
+# === Visual Studio ===
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.unityproj
+
+# === OS-generated ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Logs & Data ===
+*.log
+*.csv
+*.vsidx
+
+# === Crash Reports & Debug ===
+*.stacktrace
+*.crash
+
+# === Package Manager ===
+Packages/manifest.json
+Packages/packages-lock.json
+
+# === Rider IDE ===
+.idea/
+*.sln.iml
+
+# === JetBrains Rider temp ===
+*.dotCover
+*.sln.docstates
