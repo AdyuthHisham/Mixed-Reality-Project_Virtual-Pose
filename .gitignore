@@ -39,7 +39,7 @@ Desktop.ini
 *.log
 *.csv
 *.vsidx
-
+*.mp4
 # === Crash Reports & Debug ===
 *.stacktrace
 *.crash

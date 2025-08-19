@@ -49,6 +49,7 @@ Module for estimating the pose of an artificial limb and visualizing the limb in
     - Meta XR All-in-One SDK
     - Meta MR Utility Kit
     - Meta XR Core SDK
+3. Replace ```OVRSkeleton.cs``` with ```Assets/UserScripts/OVRSkeleton_paste.cs``` and rename to ```OVRSkeleton.cs```.
 
 ## How to Run
 1. Make sure BioArmband is awake. Run ```UDPSender.py```.
