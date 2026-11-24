@@ -55,3 +55,6 @@ Packages/packages-lock.json
 # === JetBrains Rider temp ===
 *.dotCover
 *.sln.docstates
+.venv/
+__pycache__/
+README.html
