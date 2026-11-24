@@ -8,7 +8,7 @@ figures:
 	$(PY) analysis/fig_quat_order.py
 	$(PY) analysis/hero_gif.py
 
-# Needs ffmpeg. Cuts the first 6 s of the Quest passthrough recording.
+# Needs ffmpeg. Cuts the first 4 s of the Quest passthrough recording.
 clip:
-	ffmpeg -y -v error -ss 0 -t 6 -i $(VIDEO) \
-	  -vf "fps=10,scale=480:-1:flags=lanczos,split[a][b];[a]palettegen[p];[b][p]paletteuse" media/passthrough_clip.gif
+	ffmpeg -y -v error -ss 0 -t 4 -i $(VIDEO) \
+	  -vf "fps=8,scale=400:-1:flags=lanczos,split[a][b];[a]palettegen[p];[b][p]paletteuse" media/passthrough_clip.gif

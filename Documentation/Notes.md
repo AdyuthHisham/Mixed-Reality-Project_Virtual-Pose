@@ -1,5 +1,4 @@
-## Links and stuff
-1. [Drive folder](https://chalmersindustriteknik-my.sharepoint.com/personal/morten_kristoffersen_chalmersindustriteknik_se/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmorten%5Fkristoffersen%5Fchalmersindustriteknik%5Fse%2FDocuments%2FDocuments%2FMSc%2FAdyuth&ga=1)
+
 # Week 27
 - Lit Survey: Most of the people using these VR headsets use the controller and do some coding black magic to simulate a hand or something by flipping it and attaching it to the stump. Must be super easy ig.
 - QR based approach might work - I mean I believe the EMG sensor would be at the stump. That can be hard coded to be the end point of the wrist or something.

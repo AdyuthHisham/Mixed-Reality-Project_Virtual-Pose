@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="150" viewBox="0 0 980 150" role="img" aria-label="Data path from the BioArmband to a Unity object over UDP">
+<rect width="980" height="150" rx="10" fill="#f6f7f9"/>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker></defs>
+<rect x="20" y="35" width="160" height="80" rx="8" fill="#fff" stroke="#0072B2" stroke-width="2"/>
+<text x="100" y="62" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#222">BioArmband</text>
+<text x="100" y="82" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444">IMU quaternion</text>
+<text x="100" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444">[w,x,y,z]</text>
+<line x1="182" y1="75" x2="231" y2="75" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="215" y="35" width="160" height="80" rx="8" fill="#fff" stroke="#0072B2" stroke-width="2"/>
+<text x="295" y="62" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#222">UDPSender.py</text>
+<text x="295" y="82" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444">normalise, send</text>
+<text x="295" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444">at 20 Hz</text>
+<line x1="377" y1="75" x2="426" y2="75" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="410" y="35" width="160" height="80" rx="8" fill="#fff" stroke="#0072B2" stroke-width="2"/>
+<text x="490" y="62" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#222">UDP :9050</text>
+<text x="490" y="82" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444">&quot;a,b,c,d&quot; text</text>
+<text x="490" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444">over Wi-Fi</text>
+<line x1="572" y1="75" x2="621" y2="75" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="605" y="35" width="160" height="80" rx="8" fill="#fff" stroke="#0072B2" stroke-width="2"/>
+<text x="685" y="62" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#222">UDPReceiver.cs</text>
+<text x="685" y="82" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444">parse, remap axes,</text>
+<text x="685" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444">set rotation</text>
+<line x1="767" y1="75" x2="816" y2="75" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="800" y="35" width="160" height="80" rx="8" fill="#fff" stroke="#0072B2" stroke-width="2"/>
+<text x="880" y="62" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#222">Unity scene</text>
+<text x="880" y="82" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444">test object now,</text>
+<text x="880" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444">hand root next</text>
+</svg>

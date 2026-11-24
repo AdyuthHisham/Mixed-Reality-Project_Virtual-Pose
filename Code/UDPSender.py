@@ -4,7 +4,7 @@ import math
 import random
 
 # IP of the Meta Quest and port to send to
-quest_ip = '172.25.113.170'  # Replace with your Quest IP
+quest_ip = '192.168.0.100'  # Replace with your Quest IP
 port = 9050
 
 TOGGLE_ARMBAND = True  # Set to True to enable sending real armband data

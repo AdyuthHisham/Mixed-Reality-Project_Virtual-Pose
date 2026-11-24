@@ -1,0 +1,7 @@
+{
+  "n_random_rotations": 2000,
+  "seed": 0,
+  "median_error_deg": 150.9,
+  "max_error_deg": 180.0,
+  "identity_pose_shown_as_deg_from_identity": 180.0
+}

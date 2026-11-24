@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "seed": 0,
+  "mount_euler_deg": [
+    35.0,
+    -20.0,
+    110.0
+  ],
+  "noise_deg": 1.0,
+  "rest_s": 10,
+  "move_s": 20,
+  "fs_hz": 100,
+  "median_error_raw_deg": 120.56,
+  "median_error_calibrated_deg": 0.9
+}
