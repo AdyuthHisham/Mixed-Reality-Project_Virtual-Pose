@@ -1,6 +1,6 @@
-> What is this project about?
+# Virtual Limb Pose Estimation in Mixed Reality
 
-Making a virtual limb in a Meta Quest follow a sensor armband instead of the headset's own hand tracking. Work in progress.
+> What is this project about? Making a virtual limb in a Meta Quest follow a BioArmband's IMU instead of the headset's camera-based hand tracking, so a forearm or prosthesis the cameras can't see can still be shown. We built the armband-to-Quest UDP link, a rest-pose calibration, and a hook inside Meta's `OVRSkeleton`. Orientation alignment, position estimation and driving the full hand skeleton are not finished. Work in progress.
 
 ## TLDR
 
